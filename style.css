@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root{
+    --ColorShadow: rgba(0, 0, 0, 0.274);
+}
+
+*{
+    padding: 0px;
+    border: 0px;
+    font-family: Roboto, sans-serif;
+}
+
+#h2{
+    position: relative;  
+    margin-bottom: 20px;
+}
+
+#cont{
+    margin-top: 50px;
+}
+
+#input{
+    box-shadow: 5px 5px 5px 0px var(--ColorShadow);
+    transition: all;
+    transition-delay: 0.3s;
+    transition-duration: 1s;
+}
+
+#input:focus{
+    box-shadow: 0 0 0 0;
+}
+
+#input-type{
+    box-shadow: 5px 5px 5px 0px var(--ColorShadow);
+    transition: all;
+    transition-delay: 0.3s;
+    transition-duration: 1s;
+    width: 180px;
+}
+
+#input-type:focus{
+    box-shadow: 0 0 0 0;
+}
+
+#btn{
+    margin-top: 25px;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    width: 200px;
+    box-shadow: 5px 5px 5px 0px var(--ColorShadow);
+    transition: all;
+    transition-delay: 0.3s;
+    transition-duration: 1s;
+}
+
+#btn:focus{
+    box-shadow: 0 0 0 0;
+}
+
+#response{
+    margin-top: 15px;
+}
+
+.primes{
+    margin-top: 80px;
+}
+
+.response-prime{
+    margin-top: 15px;
+}
